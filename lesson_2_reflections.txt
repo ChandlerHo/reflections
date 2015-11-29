@@ -4,3 +4,24 @@ it is to tell git that the folder is a repository.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 it gives coder a chance to really commit changes
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+finish commit before adding new changes
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+I can create experiments while keep a working version of the codes.
+
+How do the diagrams help you visualize the branch structure?
+
+it shows me which branch or which tip I am at. I can trace back to the origin of commit. However, if a changes is added to a commit which i don't have the reference number. It will be very difficult to retrieve that information.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+you merge coins into master. the newly merged branch becomes master. since coins now can be traced from master. you should delete the coins label. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+auto merging - you would not forget
+manual merging - you can make sense of you have merged
