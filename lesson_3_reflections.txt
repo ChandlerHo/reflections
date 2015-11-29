@@ -12,3 +12,7 @@ forks - you make copy in github (remote)
 clones - you can clone from github to local or local to local
 
 branch - it is a label of a commit
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+you can compare github version and your current version for changes.
